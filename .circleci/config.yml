@@ -4,8 +4,7 @@ jobs:
     machine:
       image: ubuntu-2004:202010-01
     resource_class: large
-  
-  parallelism: 16
+    parallelism: 16
     steps:
       - checkout
       - run:
